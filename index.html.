@@ -1,0 +1,145 @@
+
+
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>SedraBet</title>
+
+<style>
+
+*{box-sizing:border-box}
+
+body{margin:0;background:#080808;color:white;font-family:Arial,sans-serif}
+
+header{background:#202020;padding:22px;font-size:30px;font-weight:bold;border-bottom:1px solid #555}
+
+nav{display:flex;justify-content:space-around;padding:16px 5px;background:#151515}
+
+nav a{color:white;text-decoration:none}
+
+main{padding:16px;max-width:800px;margin:auto}
+
+.hero{background:linear-gradient(135deg,#333,#080808);padding:35px 10px;text-align:center;border-radius:12px}
+
+h1{font-size:38px}
+
+.card{background:#202020;padding:18px;margin:15px 0;border-radius:12px;border:1px solid #444}
+
+.match{display:flex;justify-content:space-between;gap:8px;align-items:center}
+
+.odds{display:flex;gap:8px;margin-top:15px}
+
+button{flex:1;background:#fff;color:#111;border:0;border-radius:6px;padding:12px;font-weight:bold}
+
+.note{color:#bbb;font-size:13px;line-height:1.5}
+
+footer{text-align:center;color:#aaa;padding:25px}
+
+</style>
+
+</head>
+
+<body>
+
+<header>♛ SedraBet</header>
+
+<nav>
+
+<a href="#sport">⚽ Sport</a>
+
+<a href="#live">🔴 Live</a>
+
+<a href="#games">🎮 Games</a>
+
+<a href="#compte">👤 Compte</a>
+
+</nav>
+
+<main>
+
+<section class="hero">
+
+<h1>SedraBet</h1>
+
+<p>SPORT • PASSION • ÉMOTION</p>
+
+<p>Bienvenue sur votre espace sportif</p>
+
+</section>
+
+<h2 id="sport">⚽ Matchs de démonstration</h2>
+
+<p class="note">Matchs fictifs pour tester le site. Aucun pari réel.</p>
+
+<div class="card">
+
+<div class="match"><span>🇹🇳 Équipe A</span><b>VS</b><span>Équipe B 🇹🇳</span></div>
+
+<div class="odds">
+
+<button>1 — 1.80</button>
+
+<button>X — 3.00</button>
+
+<button>2 — 2.50</button>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<div class="match"><span>⚽ Équipe C</span><b>VS</b><span>Équipe D</span></div>
+
+<div class="odds">
+
+<button>1 — 2.10</button>
+
+<button>X — 3.20</button>
+
+<button>2 — 2.00</button>
+
+</div>
+
+</div>
+
+<div class="card" id="live">
+
+<h2>🔴 Live Sport</h2>
+
+<p>Les résultats en direct seront ajoutés plus tard.</p>
+
+</div>
+
+<div class="card" id="games">
+
+<h2>🎮 Games</h2>
+
+<p>Section de démonstration.</p>
+
+</div>
+
+<div class="card" id="compte">
+
+<h2>👤 Mon compte</h2>
+
+<p>Solde fictif : <b>100 points</b></p>
+
+<p class="note">Ces points n'ont aucune valeur monétaire.</p>
+
+</div>
+
+</main>
+
+<footer>SedraBet © 2026<br>Version de démonstration</footer>
+
+</body>
+
+</html>
